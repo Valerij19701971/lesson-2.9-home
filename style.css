@@ -130,14 +130,11 @@ body {
    padding: 140px 134px 125px 135px;
 }
 
-.article_investments_inner {
-   background-color: rgba(250, 235, 215, 0.4);
-   /* border just for debugging */
-}
-
+.article_investments_inner,
 .article_calculator_working_inner {
    background-color: rgba(250, 235, 215, 0.4);
-   /* border just for debugging */
+   padding: 20px;
+   /* bg just for debugging */
 }
 
 .article_investments_title,
@@ -252,6 +249,8 @@ body {
    padding-left: 77px;
    padding-top: 124px;
 }
+
+/* @media */
 
 @media screen and (max-width: 1180px) {
 
